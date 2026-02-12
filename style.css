@@ -5,4 +5,39 @@ body {
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 40px;
+  background-color: black;
+  position: sticky;
+  top: 0;
+}
+
+header h2 {
+  margin: 5px 0 5px 5px;
+  line-height: 30px;
+  color: white;
+}
+
+.wholething {
+  display: grid;
+  grid-template-columns: 20vw 60vw 20vw;
+  background-color: rgb(121, 121, 241);
+}
+
+.middle {
+  grid-column: 2;
+  border-left: solid;
+  border-right: solid;
+  height: 2000px;
+  padding: 0 5px 0 5px;
+  border-color: rgb(102, 98, 98);
+  background-color: rgba(146, 137, 137, 0.5);
 }
