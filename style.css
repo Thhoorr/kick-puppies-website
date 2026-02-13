@@ -11,6 +11,7 @@ body {
 }
 
 header {
+  z-index: 5;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,10 +54,11 @@ header a ~ a {
 }
 
 .middle {
+  z-index: 2;
   grid-column: 2;
   border-left: solid;
   border-right: solid;
-  height: 2000px;
+  height: 150vh;
   padding: 0 5px 0 5px;
   border-color: rgb(102, 98, 98);
   background-color: rgba(126, 136, 139, 0.753);
@@ -66,4 +68,16 @@ header a ~ a {
   position: relative;
   top: 800px;
   left: -20%;
+}
+
+#dvd-logo {
+  z-index: 1;
+  text-align: center;
+  padding: auto;
+  position: absolute;
+  background-color: whitesmoke;
+  top: 40px;
+  height: 200px;
+  width: 200px;
+  margin: 0;
 }
