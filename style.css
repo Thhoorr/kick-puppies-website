@@ -61,3 +61,9 @@ header a ~ a {
   border-color: rgb(102, 98, 98);
   background-color: rgba(126, 136, 139, 0.753);
 }
+
+#teto-neru-gif {
+  position: relative;
+  top: 800px;
+  left: -20%;
+}
