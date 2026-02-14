@@ -1,7 +1,7 @@
 function dvdMove() {
   const dvd = document.getElementById("dvd-logo");
 
-  const XMAX = window.innerWidth - 205;
+  const XMAX = window.innerWidth - 302;
   const XMIN = 0;
   const YMAX = window.innerHeight - 200;
   const YMIN = 40;

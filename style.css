@@ -75,9 +75,12 @@ header a ~ a {
   text-align: center;
   padding: auto;
   position: absolute;
-  background-color: whitesmoke;
   top: 40px;
   height: 200px;
-  width: 200px;
+  width: 292px;
   margin: 0;
+}
+
+#dvd-logo img {
+  height: 50%;
 }
