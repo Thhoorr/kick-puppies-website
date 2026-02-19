@@ -1,7 +1,7 @@
 function dvdMove() {
   const dvd = document.getElementById("dvd-logo");
 
-  const XMAX = window.innerWidth - 302;
+  const XMAX = window.innerWidth - window.innerWidth * 0.146;
   const XMIN = 0;
   const YMAX = window.innerHeight - 200;
   const YMIN = 40;
@@ -20,20 +20,20 @@ function dvdMove() {
     if (x == window.innerWidth) {
       clearInterval(id);
     } else {
-      if (x == XMAX) {
+      if (x >= XMAX) {
         left = true;
-      } else if (x == XMIN) {
+      } else if (x <= XMIN) {
         left = false;
       }
 
-      if (y == YMAX) {
+      if (y >= YMAX) {
         up = true;
-      } else if (y == YMIN) {
+      } else if (y <= YMIN) {
         up = false;
       }
 
-      x += left ? -1 : 1;
-      y += up ? -1 : 1;
+      x += left ? -2 : 2;
+      y += up ? -2 : 2;
 
       dvd.style.top = y + "px";
       dvd.style.left = x + "px";
