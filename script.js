@@ -3,7 +3,7 @@ function dvdMove() {
 
   const XMAX = window.innerWidth - window.innerWidth * 0.146;
   const XMIN = 0;
-  const YMAX = window.innerHeight - 200;
+  const YMAX = window.innerHeight - 215;
   const YMIN = 40;
 
   let id = null;
@@ -32,8 +32,8 @@ function dvdMove() {
         up = false;
       }
 
-      x += left ? -2 : 2;
-      y += up ? -2 : 2;
+      x += left ? -1 : 1;
+      y += up ? -1 : 1;
 
       dvd.style.top = y + "px";
       dvd.style.left = x + "px";
