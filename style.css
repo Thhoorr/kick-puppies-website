@@ -64,6 +64,11 @@ header a ~ a {
   background-color: rgba(126, 136, 139, 0.753);
 }
 
+.iframeCont {
+  width: 50%;
+  aspect-ratio: 16 / 9;
+}
+
 .mainAlbumCover {
   width: 35%;
 }
